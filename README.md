@@ -89,7 +89,7 @@ Página inicial com destaque da pizza, navegação simples e acesso rápido ao c
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Arthur Gabriel**
+Desenvolvido por **Arthur Gabriel e Igor Iury**
 
 ---
 
