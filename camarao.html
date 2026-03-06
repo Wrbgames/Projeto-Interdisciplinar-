@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Camarão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="menu">
+    <div class="logo">🍕 MsPizza</div>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li>
+            <a href="carrinho.php">
+                Carrinho 🛒 <span id="badge" class="badge">0</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<section class="detalhe-pizza">
+
+    <div class="detalhe-img">
+        <img src="imagens/camarao.jpg">
+    </div>
+
+    <div class="detalhe-info">
+        <h1>Camarão</h1>
+
+        <h2>Ingredientes</h2>
+        <p>Molho de tomate artesanal, mussarela especial,
+        camarão temperado, salsinha e cebolinha.</p>
+
+        <h2>Modo de preparo</h2>
+        <p>Massa de fermentação lenta, camarões limpos 
+        com sal, pimenta e limão, misturar salsinha e cebolinha picadas.</p>
+        
+
+        <div class="promo">
+            🥤 Promoção: Na compra de 2 pizzas, ganhe uma Coca-Cola 2L grátis!
+        </div>
+
+        <div class="preco">R$ 42,00</div>
+
+        <button class="botao-pizza"
+            onclick="adicionarCarrinho('Camarão', 42)">
+            Adicionar ao Carrinho
+        </button>
+
+        <br>
+        <a class="voltar" href="cardapio.html">← Voltar ao Cardápio</a>
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>

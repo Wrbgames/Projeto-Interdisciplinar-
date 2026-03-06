@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardápio - MsPizza</title>
+
+<link rel="stylesheet" href="cardapio.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="menu">
+    <div class="logo">🍕 MsPizza</div>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li>
+            <a href="carrinho.php">
+                Carrinho 🛒 <span id="badge" class="badge">0</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<section class="cardapio-container">
+    <h1>Nosso Cardápio</h1>
+
+    <div class="cardapio-grid">
+
+        <div class="pizza-card">
+            <img src="imagens/calabresa.jpg" alt="Pizza Calabresa">
+            <h2>Calabresa</h2>
+            <p>Molho de tomate, mussarela, calabresa e cebola</p>
+            <span class="preco">R$ 35,00</span>
+            <a href="calabresa.html">
+                <button>Ver Detalhes</button>
+            </a>
+        </div>
+
+        <div class="pizza-card">
+            <img src="imagens/catupiry.jpg" alt="Pizza Frango">
+            <h2>Frango com Catupiry</h2>
+            <p>Frango desfiado e catupiry</p>
+            <span class="preco">R$ 40,00</span>
+            <a href="frango.html">
+                <button>Ver Detalhes</button>
+            </a>
+        </div>
+
+        <div class="pizza-card">
+            <img src="imagens/portuguesa.png" alt="Pizza Portuguesa">
+            <h2>Portuguesa</h2>
+            <p>Presunto, ovo, cebola e azeitona</p>
+            <span class="preco">R$ 42,00</span>
+            <a href="portuguesa.html">
+                <button>Ver Detalhes</button>
+            </a>
+        </div>
+
+        <div class="pizza-card">
+            <img src="imagens/quatro-queijos.png" alt="Pizza 4 Queijos">
+            <h2>4 Queijos</h2>
+            <p>Mussarela, provolone, parmesão e gorgonzola</p>
+            <span class="preco">R$ 42,00</span>
+            <a href="4queijos.html">
+                <button>Ver Detalhes</button>
+            </a>
+        </div>
+
+        <div class="pizza-card">
+            <img src="imagens/lombo.jpg" alt="Pizza Lombo">
+            <h2>Lombo</h2>
+            <p>Lombo defumado, cebola e orégano</p>
+            <span class="preco">R$ 32,00</span>
+            <a href="lombo.html">
+                <button>Ver Detalhes</button>
+            </a>
+        </div>
+
+        <div class="pizza-card">
+            <img src="imagens/camarao.jpg" alt="Pizza Camarão">
+            <h2>Camarão</h2>
+            <p>Camarão temperado, salsinha e cebolinha</p>
+            <span class="preco">R$ 42,00</span>
+            <a href="camarao.html">
+                <button>Ver Detalhes</button>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<div class="carrinho">
+  🛒 Itens: <span id="itens">0</span> |
+  Total: R$ <span id="total">0.00</span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
